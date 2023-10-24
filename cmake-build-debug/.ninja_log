@@ -1,0 +1,53 @@
+# ninja log v5
+1	56	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/CMakeFiles/cmake.verify_globs	cf5d529b220f25e2
+2	29	1698183237161446520	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_processors/juce_audio_processors_lv2_libs.cpp.o	4ded3e4699495df6
+1	36	1698183237167660611	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_processors/juce_audio_processors_ara.cpp.o	77320383ec4992bd
+29	1593	1698183238709022158	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_data_structures/juce_data_structures.mm.o	ec52b8267a79f7fc
+1	2219	1698183239319045343	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp.o	8b21e1a0c1f440a7
+1	2471	1698183239570327454	CMakeFiles/AudioPluginExample.dir/PluginEditor.cpp.o	d279f3961fdcb451
+1	2483	1698183239587540613	CMakeFiles/AudioPluginExample.dir/PluginProcessor.cpp.o	96f3bdf69124311b
+2471	2486	1698183239620243192	AudioPluginExample_artefacts/Debug/Standalone/Audio Plugin Example Test.app/Contents/Resources/RecentFilesMenuTemplate.nib	98cab095a7b188ea
+2	2777	1698183239883392001	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_events/juce_events.mm.o	3fd45d7cab8d0d42
+36	3970	1698183241063733998	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_basics/juce_audio_basics.mm.o	80b12a25c6e010eb
+1	5823	1698183242892104295	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_utils/juce_audio_utils.mm.o	e1216b4896ad19a1
+2220	5908	1698183243011532242	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_devices/juce_audio_devices.mm.o	83a515e387d366d2
+1595	6206	1698183243292962389	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_formats/juce_audio_formats.mm.o	28b59831f8b4dd6c
+3	6306	1698183243392652418	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_core/juce_core.mm.o	2c88f8a9c187c4b9
+2	6403	1698183243486054892	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_gui_extra/juce_gui_extra.mm.o	fca02d5b42fb52d4
+3	6426	1698183243512888079	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_graphics/juce_graphics.mm.o	3e5f05b91e8602ec
+2	8674	1698183245747283504	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_processors/juce_audio_processors.mm.o	48152c783fd68eb3
+2	18145	1698183255184336628	CMakeFiles/AudioPluginExample.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_gui_basics/juce_gui_basics.mm.o	310a50ab7ff9f5ef
+18146	19348	1698183256482477000	AudioPluginExample_artefacts/Debug/libAudio Plugin Example Test_SharedCode.a	d4a5c6421fd8d772
+19348	19364	1698183256498445374	AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_Standalone/PkgInfo	302de903afd66b8c
+19348	19364	1698183256498445374	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_Standalone/PkgInfo	302de903afd66b8c
+19366	19408	1698183256540989989	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o	b91bfe6990bced4f
+19364	19414	1698183256545784873	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o	701167eebbd3a421
+19365	19414	1698183256546095460	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o	91811c84345f267d
+19365	19415	1698183256546449664	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o	ef1ffc0eb945fe60
+19365	19415	1698183256546436963	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o	2fe7c2a6619588e2
+19365	19415	1698183256546345803	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o	cf541ffc747ac29a
+19365	19415	1698183256546430367	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o	731be08d4599e85b
+19365	19415	1698183256546580987	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o	1bcef15f1859c934
+19365	19415	1698183256546506484	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o	e4a8edb2896f5776
+19366	19416	1698183256546320671	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST_utils.mm.o	c11d04bfcff74c4d
+19364	21625	1698183258738808462	CMakeFiles/AudioPluginExample_Standalone.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o	36c7d2cf6578a283
+21625	22794	1698183259757833439	AudioPluginExample_artefacts/Debug/Standalone/Audio Plugin Example Test.app/Contents/MacOS/Audio Plugin Example Test	db6d283fa5a873ae
+0	79	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/CMakeFiles/cmake.verify_globs	cf5d529b220f25e2
+33	49	1698183333156652114	AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/PkgInfo	f4549aca2e7c3e2b
+33	49	1698183333156652114	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/AudioPluginExample_artefacts/JuceLibraryCode/AudioPluginExample_VST3/PkgInfo	f4549aca2e7c3e2b
+51	73	1698183333178681895	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_LV2.mm.o	4450b5dc3e027ef0
+50	76	1698183333181380887	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_2.mm.o	a61475d9dad4a2fb
+49	78	1698183333182754116	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_ARA.cpp.o	8c8fe7426a6eaed5
+49	78	1698183333182790748	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp.o	4a0a8e5fcd5bd84e
+50	78	1698183333183137067	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.mm.o	286971377b4c556a
+51	78	1698183333183452346	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AUv3.mm.o	cb875a28791612e1
+50	79	1698183333183911057	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp.o	b66e80fe08a3341
+50	79	1698183333183705819	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp.o	693d53a2965f748
+50	79	1698183333184391111	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AU_1.mm.o	8275b891f4bb2d4c
+51	2160	1698183335244812968	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST_utils.mm.o	84d221527eea2629
+50	4466	1698183337534078269	CMakeFiles/AudioPluginExample_VST3.dir/Users/kai/PLUG_INS_2023/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp.o	57558b901670e87d
+4466	5370	1698183338299535553	AudioPluginExample_artefacts/Debug/VST3/Audio Plugin Example Test.vst3/Contents/MacOS/Audio Plugin Example Test	a1b471da2bd0e6d5
+1	55	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/CMakeFiles/cmake.verify_globs	cf5d529b220f25e2
+0	54	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/CMakeFiles/cmake.verify_globs	cf5d529b220f25e2
+0	55	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/CMakeFiles/cmake.verify_globs	cf5d529b220f25e2
+1	55	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/CMakeFiles/cmake.verify_globs	cf5d529b220f25e2

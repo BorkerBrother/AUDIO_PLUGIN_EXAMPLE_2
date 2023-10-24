@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/kai/PLUG_INS_2023/JUCE/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/JUCE-7.0.7",
+			"paths" : 
+			[
+				"cmake-build-release/JUCE/JUCEConfigVersion.cmake",
+				"cmake-build-release/JUCE/JUCEConfig.cmake",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEUtils.cmake",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JuceLV2Defines.h.in",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/LaunchScreen.storyboard",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/PIPAudioProcessor.cpp.in",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/PIPAudioProcessorWithARA.cpp.in",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/PIPComponent.cpp.in",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/PIPConsole.cpp.in",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/RecentFilesMenuTemplate.nib",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/UnityPluginGUIScript.cs.in",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/checkBundleSigning.cmake",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/copyDir.cmake",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/juce_runtime_arch_detection.cpp",
+				"/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/juce_LinuxSubprocessHelper.cpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "JUCE",
+		"source" : "/Users/kai/PLUG_INS_2023/JUCE"
+	}
+}

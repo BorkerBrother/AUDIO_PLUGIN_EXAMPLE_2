@@ -1,0 +1,11 @@
+# ninja log v5
+0	60	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs	f55caa403daf134f
+1	1201	1698183094643433194	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.mm.o	833c4cfde7e8f312
+0	2027	1698183095464847907	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.mm.o	24feb29cabddbe9e
+1	4991	1698183098401259814	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.mm.o	ad44930f5bff3984
+0	1867	1698183095299778111	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o	25fcbb39e6fbc035
+0	1958	1698183095392354063	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o	56604ae91e7068c0
+0	5083	1698183098497309738	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.mm.o	c7263a129e65e2f7
+28	1284	1698183112374863789	extras/Build/juceaide/juceaide_artefacts/Debug/juceaide	d682c09bc181026c
+0	16644	1698183110006957661	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.mm.o	70b28f60c45ef175
+1	62	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs	f55caa403daf134f
