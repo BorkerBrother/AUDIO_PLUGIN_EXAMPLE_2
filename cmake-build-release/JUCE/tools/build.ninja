@@ -36,13 +36,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/
+cmake_ninja_workdir = /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -53,7 +53,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -71,7 +71,7 @@ build list_install_components: phony
 # Utility command for install
 
 build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -83,7 +83,7 @@ build install: phony CMakeFiles/install.util
 # Utility command for install/local
 
 build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -95,7 +95,7 @@ build install/local: phony CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -112,7 +112,7 @@ build install/strip: phony CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build modules/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -123,7 +123,7 @@ build modules/edit_cache: phony modules/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build modules/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -141,7 +141,7 @@ build modules/list_install_components: phony
 # Utility command for install
 
 build modules/CMakeFiles/install.util: CUSTOM_COMMAND modules/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -153,7 +153,7 @@ build modules/install: phony modules/CMakeFiles/install.util
 # Utility command for install/local
 
 build modules/CMakeFiles/install/local.util: CUSTOM_COMMAND modules/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -165,7 +165,7 @@ build modules/install/local: phony modules/CMakeFiles/install/local.util
 # Utility command for install/strip
 
 build modules/CMakeFiles/install/strip.util: CUSTOM_COMMAND modules/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/modules && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -182,7 +182,7 @@ build modules/install/strip: phony modules/CMakeFiles/install/strip.util
 # Utility command for edit_cache
 
 build extras/Build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -193,7 +193,7 @@ build extras/Build/edit_cache: phony extras/Build/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build extras/Build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -211,7 +211,7 @@ build extras/Build/list_install_components: phony
 # Utility command for install
 
 build extras/Build/CMakeFiles/install.util: CUSTOM_COMMAND extras/Build/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -223,7 +223,7 @@ build extras/Build/install: phony extras/Build/CMakeFiles/install.util
 # Utility command for install/local
 
 build extras/Build/CMakeFiles/install/local.util: CUSTOM_COMMAND extras/Build/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -235,7 +235,7 @@ build extras/Build/install/local: phony extras/Build/CMakeFiles/install/local.ut
 # Utility command for install/strip
 
 build extras/Build/CMakeFiles/install/strip.util: CUSTOM_COMMAND extras/Build/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -260,7 +260,7 @@ build extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o: CXX_COMPILER__ju
   DEFINES = -DDEBUG=1 -DJUCE_DISABLE_JUCE_VERSION_PRINTING=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_build_tools=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_USE_CURL=0 -D_DEBUG=1
   DEP_FILE = extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o.d
   FLAGS = -isysroot /Users/kai/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=c++17
-  INCLUDES = -I/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
+  INCLUDES = -I/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
   OBJECT_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
   OBJECT_FILE_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
 
@@ -268,7 +268,7 @@ build extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_bui
   DEFINES = -DDEBUG=1 -DJUCE_DISABLE_JUCE_VERSION_PRINTING=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_build_tools=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_USE_CURL=0 -D_DEBUG=1
   DEP_FILE = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o.d
   FLAGS = -isysroot /Users/kai/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=c++17
-  INCLUDES = -I/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
+  INCLUDES = -I/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
   OBJECT_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
   OBJECT_FILE_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools
 
@@ -276,7 +276,7 @@ build extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_ba
   DEFINES = -DDEBUG=1 -DJUCE_DISABLE_JUCE_VERSION_PRINTING=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_build_tools=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_USE_CURL=0 -D_DEBUG=1
   DEP_FILE = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.mm.o.d
   FLAGS = -isysroot /Users/kai/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=c++17
-  INCLUDES = -I/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
+  INCLUDES = -I/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
   OBJECT_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
   OBJECT_FILE_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics
 
@@ -284,7 +284,7 @@ build extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphi
   DEFINES = -DDEBUG=1 -DJUCE_DISABLE_JUCE_VERSION_PRINTING=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_build_tools=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_USE_CURL=0 -D_DEBUG=1
   DEP_FILE = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.mm.o.d
   FLAGS = -isysroot /Users/kai/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=c++17
-  INCLUDES = -I/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
+  INCLUDES = -I/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
   OBJECT_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
   OBJECT_FILE_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics
 
@@ -292,7 +292,7 @@ build extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events
   DEFINES = -DDEBUG=1 -DJUCE_DISABLE_JUCE_VERSION_PRINTING=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_build_tools=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_USE_CURL=0 -D_DEBUG=1
   DEP_FILE = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.mm.o.d
   FLAGS = -isysroot /Users/kai/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=c++17
-  INCLUDES = -I/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
+  INCLUDES = -I/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
   OBJECT_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
   OBJECT_FILE_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events
 
@@ -300,7 +300,7 @@ build extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/j
   DEFINES = -DDEBUG=1 -DJUCE_DISABLE_JUCE_VERSION_PRINTING=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_build_tools=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_USE_CURL=0 -D_DEBUG=1
   DEP_FILE = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.mm.o.d
   FLAGS = -isysroot /Users/kai/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=c++17
-  INCLUDES = -I/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
+  INCLUDES = -I/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
   OBJECT_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
   OBJECT_FILE_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core
 
@@ -308,7 +308,7 @@ build extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_s
   DEFINES = -DDEBUG=1 -DJUCE_DISABLE_JUCE_VERSION_PRINTING=1 -DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1 -DJUCE_MODULE_AVAILABLE_juce_build_tools=1 -DJUCE_MODULE_AVAILABLE_juce_core=1 -DJUCE_MODULE_AVAILABLE_juce_data_structures=1 -DJUCE_MODULE_AVAILABLE_juce_events=1 -DJUCE_MODULE_AVAILABLE_juce_graphics=1 -DJUCE_MODULE_AVAILABLE_juce_gui_basics=1 -DJUCE_STANDALONE_APPLICATION=1 -DJUCE_USE_CURL=0 -D_DEBUG=1
   DEP_FILE = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.mm.o.d
   FLAGS = -isysroot /Users/kai/Downloads/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fcolor-diagnostics -g -O0 -Wall -Wshadow-all -Wshorten-64-to-32 -Wstrict-aliasing -Wuninitialized -Wunused-parameter -Wconversion -Wsign-compare -Wint-conversion -Wconditional-uninitialized -Wconstant-conversion -Wsign-conversion -Wbool-conversion -Wextra-semi -Wunreachable-code -Wcast-align -Wshift-sign-overflow -Wmissing-prototypes -Wnullable-to-nonnull-conversion -Wno-ignored-qualifiers -Wswitch-enum -Wpedantic -Wdeprecated -Wzero-as-null-pointer-constant -Wunused-private-field -Woverloaded-virtual -Wreorder -Winconsistent-missing-destructor-override -std=c++17
-  INCLUDES = -I/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
+  INCLUDES = -I/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/JuceLibraryCode -I/Users/kai/PLUG_INS_2023/JUCE/extras/Build -I/Users/kai/PLUG_INS_2023/JUCE/modules
   OBJECT_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir
   OBJECT_FILE_DIR = extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures
 
@@ -334,7 +334,7 @@ build extras/Build/juceaide/juceaide_artefacts/Debug/juceaide: CXX_EXECUTABLE_LI
 # Utility command for edit_cache
 
 build extras/Build/juceaide/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -345,7 +345,7 @@ build extras/Build/juceaide/edit_cache: phony extras/Build/juceaide/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build extras/Build/juceaide/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/JUCE -B/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -363,7 +363,7 @@ build extras/Build/juceaide/list_install_components: phony
 # Utility command for install
 
 build extras/Build/juceaide/CMakeFiles/install.util: CUSTOM_COMMAND extras/Build/juceaide/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
   DESC = Install the project...
   pool = console
   restat = 1
@@ -375,7 +375,7 @@ build extras/Build/juceaide/install: phony extras/Build/juceaide/CMakeFiles/inst
 # Utility command for install/local
 
 build extras/Build/juceaide/CMakeFiles/install/local.util: CUSTOM_COMMAND extras/Build/juceaide/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
   DESC = Installing only the local directory...
   pool = console
   restat = 1
@@ -387,7 +387,7 @@ build extras/Build/juceaide/install/local: phony extras/Build/juceaide/CMakeFile
 # Utility command for install/strip
 
 build extras/Build/juceaide/CMakeFiles/install/strip.util: CUSTOM_COMMAND extras/Build/juceaide/all
-  COMMAND = cd /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  COMMAND = cd /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
   DESC = Installing the project stripped...
   pool = console
   restat = 1
@@ -405,28 +405,28 @@ build juceaide: phony extras/Build/juceaide/juceaide_artefacts/Debug/juceaide
 # =============================================================================
 
 #############################################
-# Folder: /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools
+# Folder: /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools
 
 build all: phony modules/all extras/Build/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build
+# Folder: /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build
 
 build extras/Build/all: phony extras/Build/juceaide/all
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/extras/Build/juceaide
+# Folder: /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/extras/Build/juceaide
 
 build extras/Build/juceaide/all: phony extras/Build/juceaide/juceaide_artefacts/Debug/juceaide
 
 # =============================================================================
 
 #############################################
-# Folder: /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/modules
+# Folder: /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/modules
 
 build modules/all: phony
 
@@ -437,13 +437,13 @@ build modules/all: phony
 #############################################
 # Phony target to force glob verification run.
 
-build /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake_force: phony
+build /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake_force: phony
 
 
 #############################################
 # Re-run CMake to check if globbed directories changed.
 
-build /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake_force
+build /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs: VERIFY_GLOBS | /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake_force
   pool = console
   restat = 1
 
@@ -451,14 +451,14 @@ build /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeF
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/BasicConfigVersion-ExactVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake /Users/kai/PLUG_INS_2023/JUCE/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEConfig.cmake.in /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEUtils.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/juceaide/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/modules/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/BasicConfigVersion-ExactVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake /Users/kai/PLUG_INS_2023/JUCE/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEConfig.cmake.in /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEUtils.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/juceaide/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/modules/CMakeLists.txt /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/BasicConfigVersion-ExactVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake /Users/kai/PLUG_INS_2023/JUCE/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEConfig.cmake.in /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEUtils.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/juceaide/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/modules/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/BasicConfigVersion-ExactVersion.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDependentOption.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakePackageConfigHelpers.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake /Users/kai/PLUG_INS_2023/JUCE/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEConfig.cmake.in /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEUtils.cmake /Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/extras/Build/juceaide/CMakeLists.txt /Users/kai/PLUG_INS_2023/JUCE/modules/CMakeLists.txt /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/VerifyGlobs.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

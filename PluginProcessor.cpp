@@ -186,6 +186,24 @@ void AudioPluginAudioProcessor::setStateInformation (const void* data, int sizeI
     juce::ignoreUnused (data, sizeInBytes);
 }
 
+float AudioPluginAudioProcessor::getRmsValue(const int channel) const
+{
+    jassert(channel == 0 || channel == 1);
+    {
+        if (channel == 0)
+        {
+            return rmsLevelLeft;
+        }
+        if (channel == 1)
+        {
+            return rmsLevelRight;
+        }
+        else {
+            return 0.f;
+        }
+    }
+}
+
 //==============================================================================
 // This creates new instances of the plugin..
 juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()

@@ -29,7 +29,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -47,7 +47,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -158,7 +158,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -331,7 +331,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -504,7 +504,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -586,7 +586,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -980,7 +980,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1027,7 +1027,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1132,7 +1132,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1410,7 +1410,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1434,7 +1434,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1464,7 +1464,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1557,7 +1557,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1615,7 +1615,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -1794,7 +1794,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -2140,7 +2140,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -2217,7 +2217,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -2265,7 +2265,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -2292,7 +2292,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -2316,7 +2316,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()
 
 # all_module_files at extras/Build/CMake/JUCEModuleSupport.cmake:187 (file)
@@ -2347,5 +2347,5 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/tools/CMakeFiles/cmake.verify_globs")
 endif()

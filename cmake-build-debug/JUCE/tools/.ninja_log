@@ -1,11 +1,12 @@
 # ninja log v5
-16510	17762	1698183025136990390	extras/Build/juceaide/juceaide_artefacts/Debug/juceaide	d682c09bc181026c
-1	16509	1698183023910115811	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.mm.o	ee007a275d9f8c6c
-0	54	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/CMakeFiles/cmake.verify_globs	c6d1b9e470798153
-1	1821	1698183009297037699	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o	8bd05fcb1edfa922
-1	4939	1698183012393991238	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.mm.o	cb790d9415e97aa0
-1	1756	1698183009225696333	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o	9fd949662027939f
-1	4856	1698183012307701950	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.mm.o	ac437baeb0a52ff
-1	1898	1698183009376559530	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.mm.o	902e74a7f67f87d5
-1	1107	1698183008591184335	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.mm.o	4a7da42129c5fad3
+18073	19297	1698347769733551278	extras/Build/juceaide/juceaide_artefacts/Debug/juceaide	d682c09bc181026c
+30	18073	1698347768527672122	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_gui_basics/juce_gui_basics.mm.o	ed309e67b43198aa
 1	62	0	/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/CMakeFiles/cmake.verify_globs	c6d1b9e470798153
+29	2837	1698347753367686448	extras/Build/juceaide/CMakeFiles/juceaide.dir/Main.cpp.o	d5371865fd1ee7d8
+30	6343	1698347756846785083	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_graphics/juce_graphics.mm.o	1651c5c0cef6af72
+30	2737	1698347753262414515	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/juce_build_tools/juce_build_tools.cpp.o	b86dec7f695275b2
+30	6247	1698347756727318944	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_core/juce_core.mm.o	87ff28957f61dca4
+1	63	0	/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/CMakeFiles/cmake.verify_globs	615c5ba6a2ae1342
+30	3067	1698347753592462406	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_events/juce_events.mm.o	6c01239a26cc1ed7
+31	1849	1698347752378367365	extras/Build/juceaide/CMakeFiles/juceaide.dir/__/__/__/modules/juce_data_structures/juce_data_structures.mm.o	a634333f2af74f63
+1	63	0	/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/CMakeFiles/cmake.verify_globs	615c5ba6a2ae1342

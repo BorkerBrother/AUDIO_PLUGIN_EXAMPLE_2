@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/extras/Build/juceaide/cmake_install.cmake")
+  include("/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/extras/Build/juceaide/cmake_install.cmake")
 endif()
 

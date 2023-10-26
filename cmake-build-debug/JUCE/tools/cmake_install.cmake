@@ -39,18 +39,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/modules/cmake_install.cmake")
+  include("/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/extras/Build/cmake_install.cmake")
+  include("/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/extras/Build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/JUCE-7.0.7" TYPE FILE FILES
-    "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/JUCEConfigVersion.cmake"
-    "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/JUCEConfig.cmake"
+    "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/JUCEConfigVersion.cmake"
+    "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/JUCEConfig.cmake"
     "/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake"
     "/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake"
     "/Users/kai/PLUG_INS_2023/JUCE/extras/Build/CMake/JUCEModuleSupport.cmake"
@@ -78,5 +78,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

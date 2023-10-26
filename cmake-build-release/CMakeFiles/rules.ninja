@@ -88,7 +88,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/AudioPlugin -B/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/kai/PLUG_INS_2023/LevelMeter -B/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release
   description = Re-running CMake...
   generator = 1
 
@@ -97,7 +97,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/CMakeFiles/VerifyGlobs.cmake
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/CMakeFiles/VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 

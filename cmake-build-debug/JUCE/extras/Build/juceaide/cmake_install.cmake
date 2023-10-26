@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/JUCE-7.0.7" TYPE PROGRAM FILES "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-debug/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin/JUCE-7.0.7" TYPE PROGRAM FILES "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/JUCE/tools/extras/Build/juceaide/juceaide_artefacts/Debug/juceaide")
 endif()
 

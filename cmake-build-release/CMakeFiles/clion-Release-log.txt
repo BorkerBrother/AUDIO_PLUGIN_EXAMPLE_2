@@ -1,7 +1,7 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/kai/PLUG_INS_2023/AudioPlugin -B /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/kai/PLUG_INS_2023/LevelMeter -B /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release
 -- Configuring juceaide
 -- Building juceaide
 -- Exporting juceaide
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release
+-- Build files have been written to: /Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release
