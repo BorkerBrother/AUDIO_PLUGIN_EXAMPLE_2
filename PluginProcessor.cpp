@@ -89,6 +89,12 @@ void AudioPluginAudioProcessor::prepareToPlay (double sampleRate, int samplesPer
     // Use this method as the place to do any pre-playback
     // initialisation that you need..
     juce::ignoreUnused (sampleRate, samplesPerBlock);
+
+    rmsLevelLeft.reset(sampleRate, 0.5);
+    rmsLevelRight.reset(sampleRate, 0.5);
+
+    rmsLevelLeft.setCurrentAndTargetValue(-100.f);
+    rmsLevelRight.setCurrentAndTargetValue(-100.f);
 }
 
 void AudioPluginAudioProcessor::releaseResources()
@@ -126,7 +132,7 @@ void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
 {
     juce::ignoreUnused (midiMessages);
 
-    juce::ScopedNoDenormals noDenormals;
+    //juce::ScopedNoDenormals noDenormals;
     auto totalNumInputChannels  = getTotalNumInputChannels();
     auto totalNumOutputChannels = getTotalNumOutputChannels();
 
@@ -140,8 +146,29 @@ void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
         buffer.clear (i, 0, buffer.getNumSamples());
 
 
+    juce::ScopedNoDenormals noDenormals;
 
-    rmsLevelLeft = juce::Decibels::gainToDecibels(buffer.getRMSLevel(0,0,buffer.getNumSamples()));
+    rmsLevelLeft.skip(buffer.getNumSamples());
+    rmsLevelRight.skip(buffer.getNumSamples());
+    {
+        const auto value = juce::Decibels::gainToDecibels(buffer.getRMSLevel(0,0,buffer.getNumSamples()));
+        if ( value < rmsLevelLeft.getCurrentValue())
+            rmsLevelLeft.setTargetValue(value);
+
+        else
+            rmsLevelLeft.setCurrentAndTargetValue(value);
+    }
+    {
+        const auto value = juce::Decibels::gainToDecibels(buffer.getRMSLevel(0,0,buffer.getNumSamples()));
+
+        if ( value < rmsLevelRight.getCurrentValue())
+            rmsLevelRight.setTargetValue(value);
+
+        else
+            rmsLevelRight.setCurrentAndTargetValue(value);
+    }
+
+
     rmsLevelRight = juce::Decibels::gainToDecibels(buffer.getRMSLevel(1,0,buffer.getNumSamples()));
 
 
@@ -192,11 +219,11 @@ float AudioPluginAudioProcessor::getRmsValue(const int channel) const
     {
         if (channel == 0)
         {
-            return rmsLevelLeft;
+            return rmsLevelLeft.getCurrentValue();
         }
         if (channel == 1)
         {
-            return rmsLevelRight;
+            return rmsLevelRight.getCurrentValue();
         }
         else {
             return 0.f;

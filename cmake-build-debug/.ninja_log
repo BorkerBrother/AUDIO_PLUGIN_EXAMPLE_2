@@ -53,3 +53,8 @@
 28	1586	1698350614937764347	CMakeFiles/AudioPluginExample.dir/PluginProcessor.cpp.o	4f83687f584f52ce
 1586	2808	1698350616175433000	AudioPluginExample_artefacts/Debug/libAudio Plugin Example Test_SharedCode.a	d4a5c6421fd8d772
 2808	4009	1698350617177167560	AudioPluginExample_artefacts/Debug/Standalone/Audio Plugin Example Test.app/Contents/MacOS/Audio Plugin Example Test	9ce58c07baeacbee
+0	57	0	/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-debug/CMakeFiles/cmake.verify_globs	55f93aa8a79763ad
+29	1640	1698351334531772120	CMakeFiles/AudioPluginExample.dir/PluginEditor.cpp.o	1c6c45ca3882864d
+29	1657	1698351334549847123	CMakeFiles/AudioPluginExample.dir/PluginProcessor.cpp.o	4f83687f584f52ce
+1657	2892	1698351335802733000	AudioPluginExample_artefacts/Debug/libAudio Plugin Example Test_SharedCode.a	d4a5c6421fd8d772
+2892	4087	1698351336824090023	AudioPluginExample_artefacts/Debug/Standalone/Audio Plugin Example Test.app/Contents/MacOS/Audio Plugin Example Test	9ce58c07baeacbee
