@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kai/PLUG_INS_2023/AudioPlugin
+# Install script for directory: /Users/kai/PLUG_INS_2023/LevelMeter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/JUCE/cmake_install.cmake")
+  include("/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/JUCE/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kai/PLUG_INS_2023/AudioPlugin/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kai/PLUG_INS_2023/LevelMeter/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
