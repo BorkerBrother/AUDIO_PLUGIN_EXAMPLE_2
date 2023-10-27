@@ -2,6 +2,7 @@
 
 #include "PluginProcessor.h"
 #include "Component/HorizontalMeter.h"
+#include "Component/VerticalGradientMeter.h"
 
 //==============================================================================
 class AudioPluginAudioProcessorEditor  : public juce::AudioProcessorEditor, public juce::Timer
@@ -21,6 +22,8 @@ private:
     AudioPluginAudioProcessor& processorRef;
 
     Gui::HorizontalMeter horizontalMeterL, horizontalMeterR;
+
+    Gui::VerticalGradientMeter verticalGradientMeterL, verticalGradientMeterR;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (AudioPluginAudioProcessorEditor)
 };
