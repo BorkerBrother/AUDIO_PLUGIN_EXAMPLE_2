@@ -3,7 +3,9 @@
 
 //==============================================================================
 AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAudioProcessor& p)
-    : AudioProcessorEditor (&p), processorRef (p)
+    : AudioProcessorEditor (&p), processorRef (p),
+      verticalGradientMeterL([&](){return processorRef.getRmsValue(0);}),
+      verticalGradientMeterR([&](){return processorRef.getRmsValue(1);})
 {
     juce::ignoreUnused (processorRef);
     // Make sure that before the constructor has finished, you've set the
@@ -32,7 +34,6 @@ void AudioPluginAudioProcessorEditor::timerCallback()
     horizontalMeterL.repaint();
     horizontalMeterR.repaint();
 
-    verticalGradientMeterL.repaint();
 }
 
 //==============================================================================
