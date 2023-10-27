@@ -69,9 +69,9 @@ void AudioPluginAudioProcessorEditor::resized()
 {
     // This is generally where you'll want to lay out the positions of any
     // subcomponents in your editor..
-    //horizontalMeterL.setBounds(100,100,200,15);
-    //horizontalMeterR.setBounds(100,120,200,15);
+    horizontalMeterL.setBounds(80,50,15,200);
+    horizontalMeterR.setBounds(120,50,15,200);
 
-    verticalGradientMeterR.setBounds(480,50,15,200);
-    verticalGradientMeterL.setBounds(520,50,15,200);
+    verticalGradientMeterL.setBounds(480,50,15,200);
+    verticalGradientMeterR.setBounds(520,50,15,200);
 }

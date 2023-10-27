@@ -19,8 +19,13 @@ class HorizontalMeter : public juce::Component
             g.setColour(juce::Colours::white);
             // map level from -06.f / +5.f to 0 / width
 
-            const auto scaledX = juce::jmap(level, -60.f,+6.f,0.f,static_cast<float>(getWidth()));
-            g.fillRoundedRectangle(bounds.removeFromLeft(scaledX),5.f);
+            const auto scaledX = juce::jmap(level,
+                                            -60.f,
+                                            +12.f,
+                                            0.f,
+                                            static_cast<float>(getHeight()));
+
+            g.fillRoundedRectangle(bounds.removeFromBottom(scaledX),5.f);
 
         }
 

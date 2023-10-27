@@ -26,7 +26,7 @@ class VerticalGradientMeter : public juce::Component, public juce::Timer {
             g.setGradientFill(gradient);
             const auto scaledY = juce::jmap(level,
                                             -60.f,
-                                            -6.f,
+                                            +12.f,
                                             0.f,
                                             static_cast<float>(getHeight()));
 
@@ -40,13 +40,13 @@ class VerticalGradientMeter : public juce::Component, public juce::Timer {
             const auto bounds = getLocalBounds().toFloat();
 
             gradient = juce::ColourGradient {
-                    juce::Colours::green,
+                    juce::Colours::darkblue, // Bottom
                     bounds.getBottomLeft(),
-                    juce::Colours::red,
+                    juce::Colours::chocolate,         // TOP
                     bounds.getTopLeft(),
                     false
             };
-            gradient.addColour(0.f, juce::Colours::yellow);
+            gradient.addColour(0.f, juce::Colours::blueviolet);
         }
 
         void timerCallback()

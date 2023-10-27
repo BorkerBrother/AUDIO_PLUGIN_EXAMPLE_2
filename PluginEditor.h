@@ -4,6 +4,8 @@
 #include "Component/HorizontalMeter.h"
 #include "Component/VerticalGradientMeter.h"
 
+
+
 //==============================================================================
 class AudioPluginAudioProcessorEditor  : public juce::AudioProcessorEditor, public juce::Timer
 {
